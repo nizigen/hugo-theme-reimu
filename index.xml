@@ -92,7 +92,7 @@ Unordered List (ul)
 &lt;div class="friend-wrap" data-aos="zoom-in">
  
  &lt;div class="friend-item-wrap">
- &lt;a href="https://d-sketon.github.io/">&lt;/a>
+ &lt;a href="https://d-sketon.github.io/" rel="noopener external nofollow noreferrer" target="_blank">&lt;/a>
  &lt;div class="friend-icon-wrap">
  &lt;div class="friend-icon">
  &lt;img
@@ -114,7 +114,7 @@ Unordered List (ul)
  &lt;/div>
  
  &lt;div class="friend-item-wrap">
- &lt;a href="https://d-sketon.github.io/astro-theme-reimu/">&lt;/a>
+ &lt;a href="https://d-sketon.github.io/astro-theme-reimu/" rel="noopener external nofollow noreferrer" target="_blank">&lt;/a>
  &lt;div class="friend-icon-wrap">
  &lt;div class="friend-icon">
  &lt;img

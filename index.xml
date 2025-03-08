@@ -1,4 +1,48 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Reimu's Hugo Blog</title><link>https://d-sketon.github.io/hugo-theme-reimu/algolia.json</link><description>Recent content on Reimu's Hugo Blog</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 09 Jun 2022 20:12:52 +0800</lastBuildDate><atom:link href="https://d-sketon.github.io/hugo-theme-reimu/index.xml" rel="self" type="application/rss+xml"/><item><title>Markdown Basic Elements</title><link>https://d-sketon.github.io/hugo-theme-reimu/post/main/</link><pubDate>Thu, 09 Jun 2022 20:12:52 +0800</pubDate><guid>https://d-sketon.github.io/hugo-theme-reimu/post/main/</guid><description>&lt;h2 id="markdown-基本元素">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Reimu's Hugo Blog</title><link>https://d-sketon.github.io/hugo-theme-reimu/algolia.json</link><description>Recent content on Reimu's Hugo Blog</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 08 Mar 2025 17:35:52 +0800</lastBuildDate><atom:link href="https://d-sketon.github.io/hugo-theme-reimu/index.xml" rel="self" type="application/rss+xml"/><item><title>如何在 hugo-theme-reimu 中使用 Algolia 搜索</title><link>https://d-sketon.github.io/hugo-theme-reimu/post/algolia/</link><pubDate>Sat, 08 Mar 2025 17:35:52 +0800</pubDate><guid>https://d-sketon.github.io/hugo-theme-reimu/post/algolia/</guid><description>&lt;h2 id="注册-algolia">
+&lt;a class="header-anchor" href="#%e6%b3%a8%e5%86%8c-algolia">&lt;/a>
+注册 Algolia
+&lt;/h2>&lt;ol>
+&lt;li>进入 &lt;a href="https://www.algolia.com/">Algolia 官网&lt;/a>，并注册账号。&lt;/li>
+&lt;li>进入 &lt;a href="https://dashboard.algolia.com/">Dashboard&lt;/a> - &lt;code>Search&lt;/code> - &lt;code>Index&lt;/code> 页面，选择上方 &lt;code>+ Create Index&lt;/code> 创建索引，并记住索引名。&lt;/li>
+&lt;li>进入 &lt;a href="https://dashboard.algolia.com/">Dashboard&lt;/a> - &lt;code>Settings&lt;/code> - &lt;code>API Keys&lt;/code> 页面，记住如下数据：
+&lt;ul>
+&lt;li>&lt;code>Application ID&lt;/code>&lt;/li>
+&lt;li>&lt;code>Search API Key&lt;/code>&lt;/li>
+&lt;li>&lt;code>Admin API Key&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="hugo-中配置-algolia">
+&lt;a class="header-anchor" href="#hugo-%e4%b8%ad%e9%85%8d%e7%bd%ae-algolia">&lt;/a>
+Hugo 中配置 Algolia
+&lt;/h2>&lt;ol>
+&lt;li>在外层 &lt;code>hugo.toml&lt;/code> 中添加如下配置，这样在执行 &lt;code>hugo&lt;/code> 生成网站时同时在 &lt;code>public&lt;/code> 文件夹下生成 &lt;code>algolia.json&lt;/code> 文件，用于 Algolia 搜索。&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="nx">outputs&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">home&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="p">[&lt;/span>&lt;span class="s2">&amp;#34;Algolia&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s2">&amp;#34;HTML&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s2">&amp;#34;RSS&amp;#34;&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="nx">outputFormats&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">Algolia&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">baseName&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;algolia&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">isPlainText&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">mediaType&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;application/json&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">notAlternative&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">true&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
+&lt;li>在 &lt;code>params.yml&lt;/code> 中将 &lt;code>algolia_search.enable&lt;/code> 改为 &lt;code>true&lt;/code>，并填写相关信息（&lt;strong>注意！这里填写的是Search-Only Key，不允许填写Admin Key！！否则可能被攻击&lt;/strong>）&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">algolia_search&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">enable&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kc">true&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">appID&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 上文中的 Application ID&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">apiKey&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 上文中的 Search API Key&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">indexName&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 创建的索引名&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="上传索引">
+&lt;a class="header-anchor" href="#%e4%b8%8a%e4%bc%a0%e7%b4%a2%e5%bc%95">&lt;/a>
+上传索引
+&lt;/h2>&lt;h3 id="直接上传">
+&lt;a class="header-anchor" href="#%e7%9b%b4%e6%8e%a5%e4%b8%8a%e4%bc%a0">&lt;/a>
+直接上传
+&lt;/h3>&lt;ol>
+&lt;li>
+&lt;p>执行 &lt;code>hugo&lt;/code> 生成网站，此时会在 &lt;code>public&lt;/code> 文件夹下生成 &lt;code>algolia.json&lt;/code> 文件。&lt;/p></description></item><item><title>Markdown Basic Elements</title><link>https://d-sketon.github.io/hugo-theme-reimu/post/main/</link><pubDate>Thu, 09 Jun 2022 20:12:54 +0800</pubDate><guid>https://d-sketon.github.io/hugo-theme-reimu/post/main/</guid><description>&lt;h2 id="markdown-基本元素">
 &lt;a class="header-anchor" href="#markdown-%e5%9f%ba%e6%9c%ac%e5%85%83%e7%b4%a0">&lt;/a>
 Markdown 基本元素
 &lt;/h2>&lt;h3 id="标题">
@@ -55,7 +99,7 @@ Unordered List (ul)
 &lt;h3 id="段落">
 &lt;a class="header-anchor" href="#%e6%ae%b5%e8%90%bd">&lt;/a>
 段落
-&lt;/h3>&lt;p>Lorem ipsum dolor sit amet, &lt;a href="https://d-sketon.github.io/hugo-theme-reimu/hugo-theme-reimu/">test link&lt;/a> consectetur adipiscing elit. &lt;strong>Strong text&lt;/strong> pellentesque ligula commodo viverra vehicula. &lt;em>Italic text&lt;/em> at ullamcorper enim. Morbi a euismod nibh. &lt;u>Underline text&lt;/u> non elit nisl. &lt;del>Deleted text&lt;/del> tristique, sem id condimentum tempus, metus lectus venenatis mauris, sit amet semper lorem felis a eros. Fusce egestas nibh at sagittis auctor. Sed ultricies ac arcu quis molestie. Donec dapibus nunc in nibh egestas, vitae volutpat sem iaculis. Curabitur sem tellus, elementum nec quam id, fermentum laoreet mi. Ut mollis ullamcorper turpis, vitae facilisis velit ultricies sit amet. Etiam laoreet dui odio, id tempus justo tincidunt id. Phasellus scelerisque nunc sed nunc ultricies accumsan.&lt;/p></description></item><item><title>关于</title><link>https://d-sketon.github.io/hugo-theme-reimu/about/</link><pubDate>Thu, 09 Jun 2022 20:12:52 +0800</pubDate><guid>https://d-sketon.github.io/hugo-theme-reimu/about/</guid><description>&lt;p>A Hakurei Reimu style Hugo theme. Migrated from &lt;a href="https://github.com/D-Sketon/hexo-theme-reimu">hexo-theme-reimu&lt;/a>.&lt;/p></description></item><item><title>日本語テスト</title><link>https://d-sketon.github.io/hugo-theme-reimu/post/japanese/</link><pubDate>Thu, 09 Jun 2022 20:12:52 +0800</pubDate><guid>https://d-sketon.github.io/hugo-theme-reimu/post/japanese/</guid><description>&lt;p>This is a Japanese test post.&lt;/p>
+&lt;/h3>&lt;p>Lorem ipsum dolor sit amet, &lt;a href="https://d-sketon.github.io/hugo-theme-reimu/hugo-theme-reimu/">test link&lt;/a> consectetur adipiscing elit. &lt;strong>Strong text&lt;/strong> pellentesque ligula commodo viverra vehicula. &lt;em>Italic text&lt;/em> at ullamcorper enim. Morbi a euismod nibh. &lt;u>Underline text&lt;/u> non elit nisl. &lt;del>Deleted text&lt;/del> tristique, sem id condimentum tempus, metus lectus venenatis mauris, sit amet semper lorem felis a eros. Fusce egestas nibh at sagittis auctor. Sed ultricies ac arcu quis molestie. Donec dapibus nunc in nibh egestas, vitae volutpat sem iaculis. Curabitur sem tellus, elementum nec quam id, fermentum laoreet mi. Ut mollis ullamcorper turpis, vitae facilisis velit ultricies sit amet. Etiam laoreet dui odio, id tempus justo tincidunt id. Phasellus scelerisque nunc sed nunc ultricies accumsan.&lt;/p></description></item><item><title>日本語テスト</title><link>https://d-sketon.github.io/hugo-theme-reimu/post/japanese/</link><pubDate>Thu, 09 Jun 2022 20:12:53 +0800</pubDate><guid>https://d-sketon.github.io/hugo-theme-reimu/post/japanese/</guid><description>&lt;p>This is a Japanese test post.&lt;/p>
 &lt;p>私は昨日ついにその助力家というのの上よりするたなけれ。&lt;/p>
 &lt;p>最も今をお話団はちょうどこの前後なかろでくらいに困りがいるたをは帰着考えたなかって、そうにもするでうたらない。&lt;/p>
 &lt;p>がたを知っないはずも同時に九月をいよいよたありた。&lt;/p>
@@ -64,7 +108,7 @@ Unordered List (ul)
 &lt;p>それでそれでもご時日をしはずはたったいやと突き抜けるますて、その元がは行ったてという獄を尽すていけですた。&lt;/p>
 &lt;/blockquote>
 &lt;p>この中道具の日その学校はあなたごろがすまなりかとネルソンさんの考えるですん、辺の事実ないというご盲従ありたですと、爺さんのためが薬缶が結果までの箸の当時してならて、多少の十月にためからそういう上からとにかくしましないと触れべきものたで、ないうですと多少お人達したのでたた。&lt;/p>
-&lt;p>&lt;em>From &lt;a href="https://lipsum.sugutsukaeru.jp/index.cgi">すぐ使えるダミーテキスト - 日本語 Lorem ipsum&lt;/a>&lt;/em>&lt;/p></description></item><item><title>友情链接</title><link>https://d-sketon.github.io/hugo-theme-reimu/friend/</link><pubDate>Thu, 09 Jun 2022 20:12:52 +0800</pubDate><guid>https://d-sketon.github.io/hugo-theme-reimu/friend/</guid><description>&lt;h2 id="本站信息">
+&lt;p>&lt;em>From &lt;a href="https://lipsum.sugutsukaeru.jp/index.cgi">すぐ使えるダミーテキスト - 日本語 Lorem ipsum&lt;/a>&lt;/em>&lt;/p></description></item><item><title>关于</title><link>https://d-sketon.github.io/hugo-theme-reimu/about/</link><pubDate>Thu, 09 Jun 2022 20:12:52 +0800</pubDate><guid>https://d-sketon.github.io/hugo-theme-reimu/about/</guid><description>&lt;p>A Hakurei Reimu style Hugo theme. Migrated from &lt;a href="https://github.com/D-Sketon/hexo-theme-reimu">hexo-theme-reimu&lt;/a>.&lt;/p></description></item><item><title>友情链接</title><link>https://d-sketon.github.io/hugo-theme-reimu/friend/</link><pubDate>Thu, 09 Jun 2022 20:12:52 +0800</pubDate><guid>https://d-sketon.github.io/hugo-theme-reimu/friend/</guid><description>&lt;h2 id="本站信息">
 &lt;a class="header-anchor" href="#%e6%9c%ac%e7%ab%99%e4%bf%a1%e6%81%af">&lt;/a>
 本站信息
 &lt;/h2>&lt;ul>

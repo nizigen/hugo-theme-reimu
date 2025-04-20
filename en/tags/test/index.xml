@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Test on Reimu's Hugo Blog</title><link>https://d-sketon.github.io/hugo-theme-reimu/en/tags/test/</link><description>Recent content from Reimu's Hugo Blog</description><generator>Hugo</generator><language>en</language><managingEditor>xxx@example.com (D-Sketon)</managingEditor><webMaster>xxx@example.com (D-Sketon)</webMaster><copyright>All website licensed under CC BY 4.0</copyright><lastBuildDate>Thu, 09 Jun 2022 20:12:54 +0800</lastBuildDate><atom:link href="https://d-sketon.github.io/hugo-theme-reimu/en/tags/test/index.xml" rel="self" type="application/rss+xml"/><item><title>Markdown Basic Elements</title><link>https://d-sketon.github.io/hugo-theme-reimu/en/post/main/</link><pubDate>Thu, 09 Jun 2022 20:12:54 +0800</pubDate><author>xxx@example.com (D-Sketon)</author><guid>https://d-sketon.github.io/hugo-theme-reimu/en/post/main/</guid><description><![CDATA[<h1>Markdown Basic Elements</h1><p>作者: D-Sketon (xxx@example.com)</p>
+          <h2 id="markdown-basic-elements">
+<a class="header-anchor" href="#markdown-basic-elements"></a>
+Markdown Basic Elements
+</h2><h3 id="title">
+<a class="header-anchor" href="#title"></a>
+Title
+</h3><h1 id="h1">
+<a class="header-anchor" href="#h1"></a>
+H1
+</h1><h2 id="h2">
+<a class="header-anchor" href="#h2"></a>
+H2
+</h2><h3 id="h3">
+<a class="header-anchor" href="#h3"></a>
+H3
+</h3><h4 id="h4">
+<a class="header-anchor" href="#h4"></a>
+H4
+</h4><h5 id="h5">
+<a class="header-anchor" href="#h5"></a>
+H5
+</h5><h6 id="h6">
+<a class="header-anchor" href="#h6"></a>
+H6
+</h6><h3 id="emphasis">
+<a class="header-anchor" href="#emphasis"></a>
+Emphasis
+</h3><p>Emphasis, aka italics, with <em>asterisks</em> or <em>underscores</em>.</p>
+<p>Strong emphasis, aka bold, with <strong>asterisks</strong> or <strong>underscores</strong>.</p>
+<p>Combined emphasis with <strong>asterisks and <em>underscores</em></strong>.</p>
+<p>Strikethrough uses two tildes. <del>Scratch this.</del></p>
+<h3 id="list">
+<a class="header-anchor" href="#list"></a>
+List
+</h3><h4 id="definition-list-dl">
+<a class="header-anchor" href="#definition-list-dl"></a>
+Definition List (dl)
+</h4><dl><dt>Definition List Title</dt><dd>This is a definition list division.</dd></dl>
+<h4 id="ordered-list-ol">
+<a class="header-anchor" href="#ordered-list-ol"></a>
+Ordered List (ol)
+</h4><ol>
+<li>List Item 1</li>
+<li>List Item 2</li>
+<li>List Item 3</li>
+</ol>
+<h4 id="unordered-list-ul">
+<a class="header-anchor" href="#unordered-list-ul"></a>
+Unordered List (ul)
+</h4><ul>
+<li>List Item 1</li>
+<li>List Item 2</li>
+<li>List Item 3</li>
+</ul>
+<h3 id="paragraph">
+<a class="header-anchor" href="#paragraph"></a>
+Paragraph
+</h3><p>Lorem ipsum dolor sit amet, <a href="">test link</a> consectetur adipiscing elit. <strong>Strong text</strong> pellentesque ligula commodo viverra vehicula. <em>Italic text</em> at ullamcorper enim. Morbi a euismod nibh. <u>Underline text</u> non elit nisl. <del>Deleted text</del> tristique, sem id condimentum tempus, metus lectus venenatis mauris, sit amet semper lorem felis a eros. Fusce egestas nibh at sagittis auctor. Sed ultricies ac arcu quis molestie. Donec dapibus nunc in nibh egestas, vitae volutpat sem iaculis. Curabitur sem tellus, elementum nec quam id, fermentum laoreet mi. Ut mollis ullamcorper turpis, vitae facilisis velit ultricies sit amet. Etiam laoreet dui odio, id tempus justo tincidunt id. Phasellus scelerisque nunc sed nunc ultricies accumsan.</p>
+        <hr><p>本文 2022-06-09 首发于 <a href='https://d-sketon.github.io/hugo-theme-reimu/'>Reimu's Hugo Blog</a>，最后修改于 2022-06-09</p>]]></description><category>test</category></item></channel></rss>

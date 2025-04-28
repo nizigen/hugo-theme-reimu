@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Reimu's Hugo Blog</title><link>https://d-sketon.github.io/hugo-theme-reimu/algolia.json</link><description>Recent content from Reimu's Hugo Blog</description><generator>Hugo</generator><language>zh-cn</language><managingEditor>xxx@example.com (D-Sketon)</managingEditor><webMaster>xxx@example.com (D-Sketon)</webMaster><copyright>All website licensed under CC BY 4.0</copyright><lastBuildDate>Sat, 08 Mar 2025 17:35:52 +0800</lastBuildDate><atom:link href="https://d-sketon.github.io/hugo-theme-reimu/index.xml" rel="self" type="application/rss+xml"/><item><title>如何在 hugo-theme-reimu 中使用 Algolia 搜索</title><link>https://d-sketon.github.io/hugo-theme-reimu/post/algolia/</link><pubDate>Sat, 08 Mar 2025 17:35:52 +0800</pubDate><author>xxx@example.com (D-Sketon)</author><guid>https://d-sketon.github.io/hugo-theme-reimu/post/algolia/</guid><description><![CDATA[<h1>如何在 hugo-theme-reimu 中使用 Algolia 搜索</h1><p>作者: D-Sketon (xxx@example.com)</p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Reimu's Hugo Blog</title><link>https://d-sketon.github.io/hugo-theme-reimu/algolia.json</link><description>Recent content from Reimu's Hugo Blog</description><generator>Hugo</generator><language>zh-CN</language><managingEditor>jackqiu278@gmail.com (D-Sketon)</managingEditor><webMaster>jackqiu278@gmail.com (D-Sketon)</webMaster><copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright><lastBuildDate>Sat, 08 Mar 2025 17:35:52 +0800</lastBuildDate><atom:link href="https://d-sketon.github.io/hugo-theme-reimu/index.xml" rel="self" type="application/rss+xml"/><item><title>如何在 hugo-theme-reimu 中使用 Algolia 搜索</title><link>https://d-sketon.github.io/hugo-theme-reimu/post/algolia/</link><pubDate>Sat, 08 Mar 2025 17:35:52 +0800</pubDate><author>jackqiu278@gmail.com (D-Sketon)</author><guid>https://d-sketon.github.io/hugo-theme-reimu/post/algolia/</guid><description>
+<![CDATA[<h1>如何在 hugo-theme-reimu 中使用 Algolia 搜索</h1><p>作者：D-Sketon（jackqiu278@gmail.com）</p>
+        
           <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nn">---</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">cover</span><span class="p">:</span><span class="w"> </span><span class="l">https://p0.qhimg.com/bdr/__85/t017621231bafff441f.jpg</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nn">---</span><span class="w">
@@ -47,7 +49,10 @@ Hugo 中配置 Algolia
 </h3><ol>
 <li>
 <p>执行 <code>hugo</code> 生成网站，此时会在 <code>public</code> 文件夹下生成 <code>algolia.json</code> 文件。</p>
-        <hr><p>本文 2025-03-08 首发于 <a href='https://d-sketon.github.io/hugo-theme-reimu/'>Reimu's Hugo Blog</a>，最后修改于 2025-03-08</p>]]></description></item><item><title>Markdown Basic Elements</title><link>https://d-sketon.github.io/hugo-theme-reimu/post/main/</link><pubDate>Thu, 09 Jun 2022 20:12:54 +0800</pubDate><author>xxx@example.com (D-Sketon)</author><guid>https://d-sketon.github.io/hugo-theme-reimu/post/main/</guid><description><![CDATA[<h1>Markdown Basic Elements</h1><p>作者: D-Sketon (xxx@example.com)</p>
+        
+        <hr><p>本文2025-03-08首发于<a href='https://d-sketon.github.io/hugo-theme-reimu/'>Reimu's Hugo Blog</a>，最后修改于2025-03-08</p>]]></description></item><item><title>Markdown Basic Elements</title><link>https://d-sketon.github.io/hugo-theme-reimu/post/main/</link><pubDate>Thu, 09 Jun 2022 20:12:54 +0800</pubDate><author>jackqiu278@gmail.com (D-Sketon)</author><guid>https://d-sketon.github.io/hugo-theme-reimu/post/main/</guid><description>
+<![CDATA[<h1>Markdown Basic Elements</h1><p>作者：D-Sketon（jackqiu278@gmail.com）</p>
+        
           <h2 id="markdown-基本元素">
 <a class="header-anchor" href="#markdown-%e5%9f%ba%e6%9c%ac%e5%85%83%e7%b4%a0"></a>
 Markdown 基本元素
@@ -106,323 +111,31 @@ Unordered List (ul)
 <a class="header-anchor" href="#%e6%ae%b5%e8%90%bd"></a>
 段落
 </h3><p>Lorem ipsum dolor sit amet, <a href="">test link</a> consectetur adipiscing elit. <strong>Strong text</strong> pellentesque ligula commodo viverra vehicula. <em>Italic text</em> at ullamcorper enim. Morbi a euismod nibh. <u>Underline text</u> non elit nisl. <del>Deleted text</del> tristique, sem id condimentum tempus, metus lectus venenatis mauris, sit amet semper lorem felis a eros. Fusce egestas nibh at sagittis auctor. Sed ultricies ac arcu quis molestie. Donec dapibus nunc in nibh egestas, vitae volutpat sem iaculis. Curabitur sem tellus, elementum nec quam id, fermentum laoreet mi. Ut mollis ullamcorper turpis, vitae facilisis velit ultricies sit amet. Etiam laoreet dui odio, id tempus justo tincidunt id. Phasellus scelerisque nunc sed nunc ultricies accumsan.</p>
-        <hr><p>本文 2022-06-09 首发于 <a href='https://d-sketon.github.io/hugo-theme-reimu/'>Reimu's Hugo Blog</a>，最后修改于 2022-06-09</p>]]></description><category>test</category></item><item><title>日本語テスト</title><link>https://d-sketon.github.io/hugo-theme-reimu/post/japanese/</link><pubDate>Thu, 09 Jun 2022 20:12:53 +0800</pubDate><author>xxx@example.com (D-Sketon)</author><guid>https://d-sketon.github.io/hugo-theme-reimu/post/japanese/</guid><description><![CDATA[<h1>日本語テスト</h1><p>作者: D-Sketon (xxx@example.com)</p>
+        
+        <hr><p>本文2022-06-09首发于<a href='https://d-sketon.github.io/hugo-theme-reimu/'>Reimu's Hugo Blog</a>，最后修改于2022-06-09</p>]]></description><category>test</category></item><item><title>日本語テスト</title><link>https://d-sketon.github.io/hugo-theme-reimu/post/japanese/</link><pubDate>Thu, 09 Jun 2022 20:12:53 +0800</pubDate><author>jackqiu278@gmail.com (D-Sketon)</author><guid>https://d-sketon.github.io/hugo-theme-reimu/post/japanese/</guid><description>
+<![CDATA[<h1>日本語テスト</h1><p>作者：D-Sketon（jackqiu278@gmail.com）</p>
+        
           <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nn">---</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">cover</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nn">---</span><span class="w">
 </span></span></span></code></pre></div><p>This is a Japanese test post.</p>
 <p>私は昨日ついにその助力家というのの上よりするたなけれ。</p>
 <p>最も今をお話団はちょうどこの前後なかろでくらいに困りがいるたをは帰着考えたなかって、そうにもするでうたらない。</p>
-        <hr><p>本文 2022-06-09 首发于 <a href='https://d-sketon.github.io/hugo-theme-reimu/'>Reimu's Hugo Blog</a>，最后修改于 2022-06-09</p>]]></description></item><item><title>中文測試</title><link>https://d-sketon.github.io/hugo-theme-reimu/post/chinese/</link><pubDate>Thu, 09 Jun 2022 20:12:52 +0800</pubDate><author>xxx@example.com (D-Sketon)</author><guid>https://d-sketon.github.io/hugo-theme-reimu/post/chinese/</guid><description><![CDATA[<h1>中文測試</h1><p>作者: D-Sketon (xxx@example.com)</p>
+        
+        <hr><p>本文2022-06-09首发于<a href='https://d-sketon.github.io/hugo-theme-reimu/'>Reimu's Hugo Blog</a>，最后修改于2022-06-09</p>]]></description></item><item><title>中文測試</title><link>https://d-sketon.github.io/hugo-theme-reimu/post/chinese/</link><pubDate>Thu, 09 Jun 2022 20:12:52 +0800</pubDate><author>jackqiu278@gmail.com (D-Sketon)</author><guid>https://d-sketon.github.io/hugo-theme-reimu/post/chinese/</guid><description>
+<![CDATA[<h1>中文測試</h1><p>作者：D-Sketon（jackqiu278@gmail.com）</p>
+        
           <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nn">---</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">cover</span><span class="p">:</span><span class="w"> </span><span class="l">rgb(255,233, 255)</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nn">---</span><span class="w">
 </span></span></span></code></pre></div><p>This is a Chinese test post.</p>
 <p>善我王上魚、產生資西員合兒臉趣論。畫衣生這著爸毛親可時，安程幾？合學作。觀經而作建。都非子作這！法如言子你關！手師也。</p>
 <p>以也座論頭室業放。要車時地變此親不老高小是統習直麼調未，行年香一？</p>
-        <hr><p>本文 2022-06-09 首发于 <a href='https://d-sketon.github.io/hugo-theme-reimu/'>Reimu's Hugo Blog</a>，最后修改于 2022-06-09</p>]]></description></item><item><title>友情链接</title><link>https://d-sketon.github.io/hugo-theme-reimu/friend/</link><pubDate>Thu, 09 Jun 2022 20:12:52 +0800</pubDate><author>xxx@example.com (D-Sketon)</author><guid>https://d-sketon.github.io/hugo-theme-reimu/friend/</guid><description><![CDATA[<h1>友情链接</h1><p>作者: D-Sketon (xxx@example.com)</p>
-          <h2 id="本站信息">
-<a class="header-anchor" href="#%e6%9c%ac%e7%ab%99%e4%bf%a1%e6%81%af"></a>
-本站信息
-</h2><ul>
-<li>站名： 拔剑Sketon</li>
-<li>站长： 拔剑Sketon</li>
-</ul>
-<h2 id="申请方法">
-<a class="header-anchor" href="#%e7%94%b3%e8%af%b7%e6%96%b9%e6%b3%95"></a>
-申请方法
-</h2><ul>
-<li>添加本站后，在本页留言，格式如下</li>
-</ul>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yml" data-lang="yml"><span class="line"><span class="cl"><span class="l">```yml</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="c">#您的名字</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="c">#您的网址</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">desc</span><span class="p">:</span><span class="w"> </span><span class="c">#简短描述</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">image</span><span class="p">:</span><span class="w"> </span><span class="c">#一张图片</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="l">```</span><span class="w">
-</span></span></span></code></pre></div><h2 id="小伙伴们">
-<a class="header-anchor" href="#%e5%b0%8f%e4%bc%99%e4%bc%b4%e4%bb%ac"></a>
-小伙伴们
-</h2>
-
-
-<div class="friend-wrap" data-aos="zoom-in">
-  
-    <div class="friend-item-wrap">
-      <a href="https://d-sketon.github.io/" rel="noopener external nofollow noreferrer" target="_blank"></a>
-      <div class="friend-icon-wrap">
-        <div class="friend-icon">
-          <img
-            data-src="https://d-sketon.github.io/avatar/avatar.webp"
-            data-sizes="auto"
-            alt="D-Sketon"
-            class="lazyload"
-          />
-        </div>
-      </div>
-      <div class="friend-info-wrap">
-        <div class="friend-name">
-          D-Sketon
-        </div>
-        <div class="friend-desc">
-          Hexo 建站
-        </div>
-      </div>
-    </div>
-  
-    <div class="friend-item-wrap">
-      <a href="https://d-sketon.github.io/astro-theme-reimu/" rel="noopener external nofollow noreferrer" target="_blank"></a>
-      <div class="friend-icon-wrap">
-        <div class="friend-icon">
-          <img
-            data-src="https://d-sketon.github.io/avatar/avatar.webp"
-            data-sizes="auto"
-            alt="D-Sketon"
-            class="lazyload"
-          />
-        </div>
-      </div>
-      <div class="friend-info-wrap">
-        <div class="friend-name">
-          D-Sketon
-        </div>
-        <div class="friend-desc">
-          Astro 建站
-        </div>
-      </div>
-    </div>
-  
-</div>
-        <hr><p>本文 2022-06-09 首发于 <a href='https://d-sketon.github.io/hugo-theme-reimu/'>Reimu's Hugo Blog</a>，最后修改于 2022-06-09</p>]]></description></item><item><title>关于</title><link>https://d-sketon.github.io/hugo-theme-reimu/about/</link><pubDate>Thu, 09 Jun 2022 20:12:52 +0800</pubDate><author>xxx@example.com (D-Sketon)</author><guid>https://d-sketon.github.io/hugo-theme-reimu/about/</guid><description><![CDATA[<h1>关于</h1><p>作者: D-Sketon (xxx@example.com)</p>
-          <link rel="stylesheet" href="/hugo-theme-reimu/css/heat-map.min.23b7a69d885b6fd650bcd347ab1dd34cc451a06a4b4d8d6adf7dd925aa20a157.css" />
-
-<div id="heatmap"></div>
-
-<script>
-var MONTH_NAMES = [
-  "Jan",
-  "Feb",
-  "Mar",
-  "Apr",
-  "May",
-  "Jun",
-  "Jul",
-  "Aug",
-  "Sep",
-  "Oct",
-  "Nov",
-  "Dec",
-];
-
-var pluralize = (num, word) => (`${num} ${word}${num <= 1 ? '' : 's'}`);
-
-function getTooltip(contributionDay, contributionDate) {
-  
-  const formattedDate = new Date(
-    contributionDate.getTime() - contributionDate.getTimezoneOffset() * 60000,
-  )
-    .toISOString()
-    .split("T")[0];
-
-  if (contributionDay.count === 0) {
-    return `No writing on ${formattedDate}`;
-  }
-
-  const postText = pluralize(contributionDay.post, "post");
-  const wordText = pluralize(contributionDay.count, "word");
-
-  return `${postText} ${wordText} on ${formattedDate}`;
-}
-
-function createCalendar(element, contributionData) {
-  if (!element) {
-    return;
-  }
-  element.innerHTML = `
-    <div class="outer-box">
-      <div class="year-select"></div>
-      <div class="inner-box">
-        <div class="calendar-container">
-          ${["Mon", "Wed", "Fri"].map((t) => `<span class="week">${t}</span>`).join("")}
-          <div class="legend">Less${new Array(5)
-            .fill(0)
-            .map((_, i) => `<i class="tile" data-level="${i}"></i>`)
-            .join("")}More</div>
-          <div class="tiles"></div>
-        </div>
-      </div>
-    </div>
-  `;
-
-  const calendarContainer = element.querySelector(".calendar-container");
-  const yearSelector = element.querySelector(".year-select");
-  const tilesContainer = element.querySelector(".tiles");
-
-  const allContributionData = completeContributionData(contributionData);
-  const currentDisplayYear = new Date().getFullYear();
-
-  yearSelector.innerHTML = Object.keys(allContributionData)
-    .sort((a, b) => b - a)
-    .map(
-      (year) =>
-        `<div class="year-option ${year == currentDisplayYear ? "active" : ""}">${year}</div>`,
-    )
-    .join("");
-
-  yearSelector.addEventListener("click", ({ target }) => {
-    if (target.classList.contains("year-option")) {
-      element.querySelector(".active")?.classList.remove("active");
-      target.classList.add("active");
-      generateYearContributions(target.textContent);
-    }
-  });
-
-  const generateYearContributions = (year) => {
-    tilesContainer.innerHTML = "";
-    calendarContainer.querySelectorAll(".month").forEach((m) => m.remove());
-    calendarContainer.querySelectorAll(".total").forEach((t) => t.remove());
-    const data = allContributionData[year];
-    const startRow = new Date(data[0].date).getDay();
-    let latestMonth = -1;
-
-    const monthFragment = document.createDocumentFragment();
-    const tilesFragment = document.createDocumentFragment();
-
-    const [tiles, totalStatistical] = data.reduce(
-      ([tiles, stats], c, i) => {
-        const date = new Date(c.date);
-        const month = date.getMonth();
-
         
-        stats.count += c.count;
-        stats.post += c.post;
-
+        <hr><p>本文2022-06-09首发于<a href='https://d-sketon.github.io/hugo-theme-reimu/'>Reimu's Hugo Blog</a>，最后修改于2022-06-09</p>]]></description></item><item><title>Gallery</title><link>https://d-sketon.github.io/hugo-theme-reimu/post/gallery/</link><pubDate>Wed, 08 Jun 2022 20:12:52 +0800</pubDate><author>jackqiu278@gmail.com (D-Sketon)</author><guid>https://d-sketon.github.io/hugo-theme-reimu/post/gallery/</guid><description>
+<![CDATA[<h1>Gallery</h1><p>作者：D-Sketon（jackqiu278@gmail.com）</p>
         
-        if (date.getDay() === 0 && month !== latestMonth) {
-          const gridColumn = 2 + Math.floor((i + startRow) / 7);
-          latestMonth = month;
-          const monthLabel = document.createElement("span");
-          monthLabel.className = "month";
-          monthLabel.textContent = MONTH_NAMES[month];
-          monthLabel.style.gridColumn = gridColumn;
-          monthFragment.append(monthLabel);
-        }
-        
-        const tile = document.createElement("i");
-        tile.className = "tile";
-        tile.dataset.level = c.level;
-        tile.title = getTooltip(c, date);
-        tiles.push(tile);
-        return [tiles, stats];
-      },
-      [[], { count: 0, post: 0 }],
-    );
-
-    
-    if (tiles[0]) {
-      tiles[0].style.gridRow = startRow + 1;
-    }
-
-    tilesFragment.append(...tiles);
-
-    calendarContainer.append(monthFragment);
-    tilesContainer.append(tilesFragment);
-
-    calendarContainer.insertAdjacentHTML(
-      "beforeend",
-      `<div class="total">${pluralize(totalStatistical.post, "post")} ${pluralize(totalStatistical.count, "word")} in ${year}</div>`,
-    );
-  };
-
-  
-  generateYearContributions(currentDisplayYear);
-}
-
-function completeContributionData(userData) {
-  
-  userData.sort((a, b) => a.date - b.date);
-
-  
-  const startDate = new Date(userData[0].date);
-  const currentDate = new Date();
-
-  
-  const allData = {};
-  
-  const userDataMap = {};
-  userData.forEach((data) => {
-    const dataDate = new Date(data.date);
-    const key = `${dataDate.getFullYear()}-${dataDate.getMonth()}-${dataDate.getDate()}`;
-    userDataMap[key] = data;
-  });
-
-  
-  for (
-    let year = startDate.getFullYear();
-    year <= currentDate.getFullYear();
-    year++
-  ) {
-    const [startYear, endYear] =
-      year === currentDate.getFullYear()
-        ? [
-            new Date(
-              new Date(currentDate).setDate(currentDate.getDate() - 365),
-            ),
-            new Date(currentDate.getTime() + 86400000),
-          ]
-        : [new Date(year, 0, 1), new Date(year + 1, 0, 1)];
-
-    const yearData = [];
-    for (let d = startYear; d < endYear; d.setDate(d.getDate() + 1)) {
-      const key = `${d.getFullYear()}-${d.getMonth()}-${d.getDate()}`;
-      yearData.push(
-        userDataMap[key] || {
-          level: 0,
-          date: d.getTime(),
-          count: 0,
-          post: 0,
-        },
-      );
-    }
-    allData[year] = yearData;
-  }
-  return allData;
-}
-
-
-var articleStats = [{"date":"2025-03-08","lastmod":"2025-03-08","title":"如何在 hugo-theme-reimu 中使用 Algolia 搜索","wordcount":390},{"date":"2022-06-09","lastmod":"2022-06-09","title":"Markdown Basic Elements","wordcount":1860},{"date":"2022-06-09","lastmod":"2022-06-09","title":"日本語テスト","wordcount":456},{"date":"2022-06-09","lastmod":"2022-06-09","title":"友情链接","wordcount":85},{"date":"2022-06-09","lastmod":"2022-06-09","title":"中文測試","wordcount":467},{"date":"2022-06-08","lastmod":"2022-06-08","title":"Gallery","wordcount":124}];
-
-function getLevelFromWordCount(totalCount) {
-  const levelStandard = "1000,5000,10000".split(",").map(Number);
-  if (totalCount <= 0) return 0;
-  if (totalCount <= levelStandard[0]) return 1;
-  if (totalCount <= levelStandard[1]) return 2;
-  if (totalCount <= levelStandard[2]) return 3;
-  return 4;
-}
-
-function transformArticlesData(articlesData) {
-  const dailyStats = articlesData.reduce((map, { date, wordcount }) => {
-    const entry = map.get(date) ?? { count: 0, post: 0 };
-    return map.set(date, {
-      count: entry.count + wordcount,
-      post: entry.post + 1,
-    });
-  }, new Map());
-
-  return Array.from(dailyStats, ([dayStr, { count, post }]) => ({
-    level: getLevelFromWordCount(count),
-    date: new Date(dayStr).getTime(),
-    count,
-    post,
-  }));
-}
-
-createCalendar(document.querySelector("#heatmap"), transformArticlesData(articleStats));
-</script>
-
-<p>一款博丽灵梦风格的 Hugo 主题。迁移自 <a href="https://github.com/D-Sketon/hexo-theme-reimu">hexo-theme-reimu</a>。</p>
-        <hr><p>本文 2022-06-09 首发于 <a href='https://d-sketon.github.io/hugo-theme-reimu/'>Reimu's Hugo Blog</a>，最后修改于 2022-06-09</p>]]></description></item><item><title>Gallery</title><link>https://d-sketon.github.io/hugo-theme-reimu/post/gallery/</link><pubDate>Wed, 08 Jun 2022 20:12:52 +0800</pubDate><author>xxx@example.com (D-Sketon)</author><guid>https://d-sketon.github.io/hugo-theme-reimu/post/gallery/</guid><description><![CDATA[<h1>Gallery</h1><p>作者: D-Sketon (xxx@example.com)</p>
           <p>Anim eiusmod irure incididunt sint cupidatat. Incididunt irure irure irure nisi ipsum do ut quis fugiat consectetur proident cupidatat incididunt cillum. Dolore voluptate occaecat qui mollit laborum ullamco et. Ipsum laboris officia anim laboris culpa eiusmod ex magna ex cupidatat anim ipsum aute. Mollit aliquip occaecat qui sunt velit ut cupidatat reprehenderit enim sunt laborum. Velit veniam in officia nulla adipisicing ut duis officia.</p>
 <p>Exercitation voluptate irure in irure tempor mollit Lorem nostrud ad officia. Velit id fugiat occaecat do tempor. Sit officia Lorem aliquip eu deserunt consectetur. Aute proident deserunt in nulla aliquip dolore ipsum Lorem ut cupidatat consectetur sit sint laborum. Esse cupidatat sit sint sunt tempor exercitation deserunt. Labore dolor duis laborum est do nisi ut veniam dolor et nostrud nostrud.</p>
-        <hr><p>本文 2022-06-08 首发于 <a href='https://d-sketon.github.io/hugo-theme-reimu/'>Reimu's Hugo Blog</a>，最后修改于 2022-06-08</p>]]></description></item></channel></rss>
+        
+        <hr><p>本文2022-06-08首发于<a href='https://d-sketon.github.io/hugo-theme-reimu/'>Reimu's Hugo Blog</a>，最后修改于2022-06-08</p>]]></description></item></channel></rss>

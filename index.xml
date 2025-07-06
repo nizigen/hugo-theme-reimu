@@ -115,14 +115,9 @@ Unordered List (ul)
         <hr><p>本文2022-06-09首发于<a href='https://d-sketon.github.io/hugo-theme-reimu/'>Reimu's Hugo Blog</a>，最后修改于2022-06-09</p>]]></description><category>test</category></item><item><title>日本語テスト</title><link>https://d-sketon.github.io/hugo-theme-reimu/post/japanese/</link><pubDate>Thu, 09 Jun 2022 20:12:53 +0800</pubDate><author>jackqiu278@gmail.com (D-Sketon)</author><guid>https://d-sketon.github.io/hugo-theme-reimu/post/japanese/</guid><description>
 <![CDATA[<h1>日本語テスト</h1><p>作者：D-Sketon（jackqiu278@gmail.com）</p>
         
-          <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nn">---</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">cover</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nn">---</span><span class="w">
-</span></span></span></code></pre></div><p>This is a Japanese test post.</p>
-<p>私は昨日ついにその助力家というのの上よりするたなけれ。</p>
-<p>最も今をお話団はちょうどこの前後なかろでくらいに困りがいるたをは帰着考えたなかって、そうにもするでうたらない。</p>
+          これは日本語テストの投稿です。
         
-        <hr><p>本文2022-06-09首发于<a href='https://d-sketon.github.io/hugo-theme-reimu/'>Reimu's Hugo Blog</a>，最后修改于2022-06-09</p>]]></description></item><item><title>中文測試</title><link>https://d-sketon.github.io/hugo-theme-reimu/post/chinese/</link><pubDate>Thu, 09 Jun 2022 20:12:52 +0800</pubDate><author>jackqiu278@gmail.com (D-Sketon)</author><guid>https://d-sketon.github.io/hugo-theme-reimu/post/chinese/</guid><description>
+        <hr><p>本文2022-06-09首发于<a href='https://d-sketon.github.io/hugo-theme-reimu/'>Reimu's Hugo Blog</a>，最后修改于2022-06-09</p>]]></description><category>test</category></item><item><title>中文測試</title><link>https://d-sketon.github.io/hugo-theme-reimu/post/chinese/</link><pubDate>Thu, 09 Jun 2022 20:12:52 +0800</pubDate><author>jackqiu278@gmail.com (D-Sketon)</author><guid>https://d-sketon.github.io/hugo-theme-reimu/post/chinese/</guid><description>
 <![CDATA[<h1>中文測試</h1><p>作者：D-Sketon（jackqiu278@gmail.com）</p>
         
           <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nn">---</span><span class="w">

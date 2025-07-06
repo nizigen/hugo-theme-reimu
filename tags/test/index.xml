@@ -60,4 +60,9 @@ Unordered List (ul)
 段落
 </h3><p>Lorem ipsum dolor sit amet, <a href="">test link</a> consectetur adipiscing elit. <strong>Strong text</strong> pellentesque ligula commodo viverra vehicula. <em>Italic text</em> at ullamcorper enim. Morbi a euismod nibh. <u>Underline text</u> non elit nisl. <del>Deleted text</del> tristique, sem id condimentum tempus, metus lectus venenatis mauris, sit amet semper lorem felis a eros. Fusce egestas nibh at sagittis auctor. Sed ultricies ac arcu quis molestie. Donec dapibus nunc in nibh egestas, vitae volutpat sem iaculis. Curabitur sem tellus, elementum nec quam id, fermentum laoreet mi. Ut mollis ullamcorper turpis, vitae facilisis velit ultricies sit amet. Etiam laoreet dui odio, id tempus justo tincidunt id. Phasellus scelerisque nunc sed nunc ultricies accumsan.</p>
         
+        <hr><p>本文2022-06-09首发于<a href='https://d-sketon.github.io/hugo-theme-reimu/'>Reimu's Hugo Blog</a>，最后修改于2022-06-09</p>]]></description><category>test</category></item><item><title>日本語テスト</title><link>https://d-sketon.github.io/hugo-theme-reimu/post/japanese/</link><pubDate>Thu, 09 Jun 2022 20:12:53 +0800</pubDate><author>jackqiu278@gmail.com (D-Sketon)</author><guid>https://d-sketon.github.io/hugo-theme-reimu/post/japanese/</guid><description>
+<![CDATA[<h1>日本語テスト</h1><p>作者：D-Sketon（jackqiu278@gmail.com）</p>
+        
+          これは日本語テストの投稿です。
+        
         <hr><p>本文2022-06-09首发于<a href='https://d-sketon.github.io/hugo-theme-reimu/'>Reimu's Hugo Blog</a>，最后修改于2022-06-09</p>]]></description><category>test</category></item></channel></rss>

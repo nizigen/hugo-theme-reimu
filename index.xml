@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Reimu's Hugo Blog</title><link>https://d-sketon.github.io/algolia.json</link><description>Recent content from Reimu's Hugo Blog</description><generator>Hugo</generator><language>zh-CN</language><managingEditor>jackqiu278@gmail.com (D-Sketon)</managingEditor><webMaster>jackqiu278@gmail.com (D-Sketon)</webMaster><copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright><lastBuildDate>Sat, 08 Mar 2025 17:35:52 +0800</lastBuildDate><atom:link href="https://d-sketon.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>如何在 hugo-theme-reimu 中使用 Algolia 搜索</title><link>https://d-sketon.github.io/post/algolia/</link><pubDate>Sat, 08 Mar 2025 17:35:52 +0800</pubDate><author>jackqiu278@gmail.com (D-Sketon)</author><guid>https://d-sketon.github.io/post/algolia/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Reimu's Hugo Blog</title><link>https://d-sketon.github.io/hugo-theme-reimu/algolia.json</link><description>Recent content from Reimu's Hugo Blog</description><generator>Hugo</generator><language>zh-CN</language><managingEditor>jackqiu278@gmail.com (D-Sketon)</managingEditor><webMaster>jackqiu278@gmail.com (D-Sketon)</webMaster><copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright><lastBuildDate>Sat, 08 Mar 2025 17:35:52 +0800</lastBuildDate><atom:link href="https://d-sketon.github.io/hugo-theme-reimu/index.xml" rel="self" type="application/rss+xml"/><item><title>如何在 hugo-theme-reimu 中使用 Algolia 搜索</title><link>https://d-sketon.github.io/hugo-theme-reimu/post/algolia/</link><pubDate>Sat, 08 Mar 2025 17:35:52 +0800</pubDate><author>jackqiu278@gmail.com (D-Sketon)</author><guid>https://d-sketon.github.io/hugo-theme-reimu/post/algolia/</guid><description>
 <![CDATA[<h1>如何在 hugo-theme-reimu 中使用 Algolia 搜索</h1><p>作者：D-Sketon（jackqiu278@gmail.com）</p>
         
           <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nn">---</span><span class="w">
@@ -50,7 +50,7 @@ Hugo 中配置 Algolia
 <li>
 <p>执行 <code>hugo</code> 生成网站，此时会在 <code>public</code> 文件夹下生成 <code>algolia.json</code> 文件。</p>
         
-        <hr><p>本文2025-03-08首发于<a href='https://d-sketon.github.io/'>Reimu's Hugo Blog</a>，最后修改于2025-03-08</p>]]></description></item><item><title>Markdown Basic Elements</title><link>https://d-sketon.github.io/post/main/</link><pubDate>Thu, 09 Jun 2022 20:12:54 +0800</pubDate><author>jackqiu278@gmail.com (D-Sketon)</author><guid>https://d-sketon.github.io/post/main/</guid><description>
+        <hr><p>本文2025-03-08首发于<a href='https://d-sketon.github.io/hugo-theme-reimu/'>Reimu's Hugo Blog</a>，最后修改于2025-03-08</p>]]></description></item><item><title>Markdown Basic Elements</title><link>https://d-sketon.github.io/hugo-theme-reimu/post/main/</link><pubDate>Thu, 09 Jun 2022 20:12:54 +0800</pubDate><author>jackqiu278@gmail.com (D-Sketon)</author><guid>https://d-sketon.github.io/hugo-theme-reimu/post/main/</guid><description>
 <![CDATA[<h1>Markdown Basic Elements</h1><p>作者：D-Sketon（jackqiu278@gmail.com）</p>
         
           <h2 id="markdown-基本元素">
@@ -112,12 +112,12 @@ Unordered List (ul)
 段落
 </h3><p>Lorem ipsum dolor sit amet, <a href="">test link</a> consectetur adipiscing elit. <strong>Strong text</strong> pellentesque ligula commodo viverra vehicula. <em>Italic text</em> at ullamcorper enim. Morbi a euismod nibh. <u>Underline text</u> non elit nisl. <del>Deleted text</del> tristique, sem id condimentum tempus, metus lectus venenatis mauris, sit amet semper lorem felis a eros. Fusce egestas nibh at sagittis auctor. Sed ultricies ac arcu quis molestie. Donec dapibus nunc in nibh egestas, vitae volutpat sem iaculis. Curabitur sem tellus, elementum nec quam id, fermentum laoreet mi. Ut mollis ullamcorper turpis, vitae facilisis velit ultricies sit amet. Etiam laoreet dui odio, id tempus justo tincidunt id. Phasellus scelerisque nunc sed nunc ultricies accumsan.</p>
         
-        <hr><p>本文2022-06-09首发于<a href='https://d-sketon.github.io/'>Reimu's Hugo Blog</a>，最后修改于2022-06-09</p>]]></description><category>test</category></item><item><title>日本語テスト</title><link>https://d-sketon.github.io/post/japanese/</link><pubDate>Thu, 09 Jun 2022 20:12:53 +0800</pubDate><author>jackqiu278@gmail.com (D-Sketon)</author><guid>https://d-sketon.github.io/post/japanese/</guid><description>
+        <hr><p>本文2022-06-09首发于<a href='https://d-sketon.github.io/hugo-theme-reimu/'>Reimu's Hugo Blog</a>，最后修改于2022-06-09</p>]]></description><category>test</category></item><item><title>日本語テスト</title><link>https://d-sketon.github.io/hugo-theme-reimu/post/japanese/</link><pubDate>Thu, 09 Jun 2022 20:12:53 +0800</pubDate><author>jackqiu278@gmail.com (D-Sketon)</author><guid>https://d-sketon.github.io/hugo-theme-reimu/post/japanese/</guid><description>
 <![CDATA[<h1>日本語テスト</h1><p>作者：D-Sketon（jackqiu278@gmail.com）</p>
         
           これは日本語テストの投稿です。
         
-        <hr><p>本文2022-06-09首发于<a href='https://d-sketon.github.io/'>Reimu's Hugo Blog</a>，最后修改于2022-06-09</p>]]></description><category>test</category></item><item><title>中文測試</title><link>https://d-sketon.github.io/post/chinese/</link><pubDate>Thu, 09 Jun 2022 20:12:52 +0800</pubDate><author>jackqiu278@gmail.com (D-Sketon)</author><guid>https://d-sketon.github.io/post/chinese/</guid><description>
+        <hr><p>本文2022-06-09首发于<a href='https://d-sketon.github.io/hugo-theme-reimu/'>Reimu's Hugo Blog</a>，最后修改于2022-06-09</p>]]></description><category>test</category></item><item><title>中文測試</title><link>https://d-sketon.github.io/hugo-theme-reimu/post/chinese/</link><pubDate>Thu, 09 Jun 2022 20:12:52 +0800</pubDate><author>jackqiu278@gmail.com (D-Sketon)</author><guid>https://d-sketon.github.io/hugo-theme-reimu/post/chinese/</guid><description>
 <![CDATA[<h1>中文測試</h1><p>作者：D-Sketon（jackqiu278@gmail.com）</p>
         
           <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nn">---</span><span class="w">
@@ -127,10 +127,10 @@ Unordered List (ul)
 <p>善我王上魚、產生資西員合兒臉趣論。畫衣生這著爸毛親可時，安程幾？合學作。觀經而作建。都非子作這！法如言子你關！手師也。</p>
 <p>以也座論頭室業放。要車時地變此親不老高小是統習直麼調未，行年香一？</p>
         
-        <hr><p>本文2022-06-09首发于<a href='https://d-sketon.github.io/'>Reimu's Hugo Blog</a>，最后修改于2022-06-09</p>]]></description></item><item><title>Gallery</title><link>https://d-sketon.github.io/post/gallery/</link><pubDate>Wed, 08 Jun 2022 20:12:52 +0800</pubDate><author>jackqiu278@gmail.com (D-Sketon)</author><guid>https://d-sketon.github.io/post/gallery/</guid><description>
+        <hr><p>本文2022-06-09首发于<a href='https://d-sketon.github.io/hugo-theme-reimu/'>Reimu's Hugo Blog</a>，最后修改于2022-06-09</p>]]></description></item><item><title>Gallery</title><link>https://d-sketon.github.io/hugo-theme-reimu/post/gallery/</link><pubDate>Wed, 08 Jun 2022 20:12:52 +0800</pubDate><author>jackqiu278@gmail.com (D-Sketon)</author><guid>https://d-sketon.github.io/hugo-theme-reimu/post/gallery/</guid><description>
 <![CDATA[<h1>Gallery</h1><p>作者：D-Sketon（jackqiu278@gmail.com）</p>
         
           <p>Anim eiusmod irure incididunt sint cupidatat. Incididunt irure irure irure nisi ipsum do ut quis fugiat consectetur proident cupidatat incididunt cillum. Dolore voluptate occaecat qui mollit laborum ullamco et. Ipsum laboris officia anim laboris culpa eiusmod ex magna ex cupidatat anim ipsum aute. Mollit aliquip occaecat qui sunt velit ut cupidatat reprehenderit enim sunt laborum. Velit veniam in officia nulla adipisicing ut duis officia.</p>
 <p>Exercitation voluptate irure in irure tempor mollit Lorem nostrud ad officia. Velit id fugiat occaecat do tempor. Sit officia Lorem aliquip eu deserunt consectetur. Aute proident deserunt in nulla aliquip dolore ipsum Lorem ut cupidatat consectetur sit sint laborum. Esse cupidatat sit sint sunt tempor exercitation deserunt. Labore dolor duis laborum est do nisi ut veniam dolor et nostrud nostrud.</p>
         
-        <hr><p>本文2022-06-08首发于<a href='https://d-sketon.github.io/'>Reimu's Hugo Blog</a>，最后修改于2022-06-08</p>]]></description></item></channel></rss>
+        <hr><p>本文2022-06-08首发于<a href='https://d-sketon.github.io/hugo-theme-reimu/'>Reimu's Hugo Blog</a>，最后修改于2022-06-08</p>]]></description></item></channel></rss>

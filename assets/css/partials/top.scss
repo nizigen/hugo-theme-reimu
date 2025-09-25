@@ -2,8 +2,8 @@
   position: fixed;
   bottom: 30px;
   right: 30px;
-  width: 100px;
-  height: 100px;
+  width: 48px;
+  height: 48px;
   background-color: var(--color-wrap);
   border-radius: 50%;
 
@@ -24,8 +24,8 @@
   z-index: 999;
 
   .sidebar-top-taichi {
-    width: 100px;
-    height: 100px;
+    width: 48px;
+    height: 48px;
     transition: 0.3s;
     border-radius: 50%;
 
@@ -39,14 +39,14 @@
     opacity: 0;
 
     &:before {
-      width: 100px;
-      height: 100px;
+      width: 48px;
+      height: 48px;
       position: absolute;
       color: var(--red-1);
       font-size: 40px;
       top: 0;
       text-align: center;
-      line-height: 100px;
+      line-height: 48px;
     }
   }
 

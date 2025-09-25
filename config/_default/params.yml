@@ -31,7 +31,7 @@ email: xxx@example.com
 description: "少女祈祷中..."
 subtitle: "少女祈祷中..."
 
-banner: "images/banner.webp"
+banner: "images/banner.jpg"
 # You can also write it in the form of the following url
 # banner: "https://example.com"
 
@@ -94,10 +94,10 @@ copyright:
 #   All website licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></div>
 
 footer:
-  since: 2020 # 2020-current year
+  since: 2024 # 2020-current year
   powered: true
   count: true
-  busuanzi: true
+  busuanzi: false
   icon:
     url: "../images/taichi.png" # this path is relative to the css/main.css, so it needs to go up one level to reach the images folder
     rotate: true
@@ -438,7 +438,7 @@ firework:
       - shape: circle
         move: ["emit"]
         easing: easeOutExpo
-        colors: ["var(--red-1)", "var(--red-2)", "var(--red-3)", "var(--red-4)"]
+        colors: ["var(--blue-1)", "var(--blue-2)", "var(--blue-3)", "var(--blue-4)"]
         number: 20
         duration: [1200, 1800]
         shapeOptions:
@@ -590,7 +590,7 @@ live2d:
 
 # Experimental
 live2d_widgets:
-  enable: false
+  enable: ture
   position: left # left or right
 
 # https://github.com/CodeByZach/pace

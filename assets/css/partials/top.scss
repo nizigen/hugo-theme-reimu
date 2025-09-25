@@ -2,25 +2,30 @@
   position: fixed;
   bottom: 30px;
   right: 30px;
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   background-color: var(--color-wrap);
   border-radius: 50%;
+
   @if $icon_font {
     font-family: $font-icon;
-  } @else {
+  }
+
+  @else {
     font-family: var(--font-icon);
   }
-  @if $top_position == "left" {
+
+  @if $top_position =="left" {
     left: 30px;
     right: auto;
   }
+
   box-shadow: var(--shadow-card-hover);
   z-index: 999;
 
   .sidebar-top-taichi {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     transition: 0.3s;
     border-radius: 50%;
 
@@ -34,14 +39,14 @@
     opacity: 0;
 
     &:before {
-      width: 50px;
-      height: 50px;
+      width: 100px;
+      height: 100px;
       position: absolute;
       color: var(--red-1);
-      font-size: 20px;
+      font-size: 40px;
       top: 0;
       text-align: center;
-      line-height: 50px;
+      line-height: 100px;
     }
   }
 
@@ -63,21 +68,22 @@
       -webkit-mask: var(--top-icon) no-repeat center / 100%;
     }
   }
+
   @supports (-webkit-mask: var(--top-icon) no-repeat center / 100%) {
     .sidebar-top-taichi {
       background-color: var(--red-1);
       mask: var(--top-icon) no-repeat center / 100%;
     }
   }
-  @supports not (
-    (mask: var(--top-icon) no-repeat center / 100%) and
-      (-webkit-mask: var(--top-icon) no-repeat center / 100%)
-  ) {
+
+  @supports not ((mask: var(--top-icon) no-repeat center / 100%) and (-webkit-mask: var(--top-icon) no-repeat center / 100%)) {
     .sidebar-top-taichi {
       background: var(--top-icon) no-repeat center / 100%;
     }
   }
-} @else {
+}
+
+@else {
   .sidebar-top-taichi {
     background: var(--top-icon) no-repeat center / 100%;
   }
